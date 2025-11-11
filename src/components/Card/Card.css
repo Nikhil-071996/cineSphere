@@ -1,0 +1,62 @@
+.movie-card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
+.movie-card .movie-img {
+  width: 100%;
+  border-radius: 0 28px 0 28px;
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.movie-genres {
+  font-size: 14px;
+}
+
+.movie-long-card img.movie-img{
+  width: 100%;
+  aspect-ratio: 471/269;
+  border-radius: 23px;
+  object-fit: cover;
+}
+
+.rating-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #b68cff;
+}
+
+.rating-container .stardiv{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.rating-container .stardiv img{
+  width: 19px;
+}
+
+.rating-container .stardiv span{
+  color: #C0A6FF;
+  font-weight: 700;
+}
+
+
+@media (max-width: 990px) {
+  .movie-title {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* ✅ Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+}

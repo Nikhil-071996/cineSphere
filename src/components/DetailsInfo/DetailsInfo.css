@@ -1,0 +1,19 @@
+.details-info{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-info p{
+    width: 75%;
+    line-height: 32px;
+}
+
+
+@media (max-width: 990px) {
+    .details-info p{
+        width: 100%;
+    }
+}

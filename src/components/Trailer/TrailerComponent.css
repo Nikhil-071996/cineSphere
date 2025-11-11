@@ -1,0 +1,54 @@
+.trailer-overlay{
+    position: Fixed;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 0;
+    background-color: #000000c9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000000;
+    transition: all ease 0.5s;
+
+    overflow: hidden;
+}
+
+.trailer-overlay.active{
+    height: 100vh;
+    width: 100%;
+}
+
+.trailer-container{
+    height: 80%;
+    width: 80%;
+}
+
+.close-trailer-btn{
+    all: unset;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close-trailer-btn img{
+    filter: invert();
+    width: 45px;
+    height: 45px;
+}
+
+
+@media (max-width: 990px) {
+    .trailer-container{
+        height: 100%;
+        width: 100%;
+    }
+}

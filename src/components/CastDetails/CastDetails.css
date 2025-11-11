@@ -1,0 +1,57 @@
+.cast-container{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.cast{
+    display: flex;    
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cast .image-container{
+    width: 120px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.cast .image-container img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cast .actor-name{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cast .character-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #C0A6FF;
+}
+
+@media (max-width: 990px) {
+    .cast-container{
+        justify-content: space-between;
+        gap: 0;
+        row-gap: 50px;
+    }
+    .cast{
+        width: 40%;
+    }
+
+    .cast .image-container{
+        width: 100%;
+    }
+
+}

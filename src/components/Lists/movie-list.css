@@ -1,0 +1,35 @@
+.list-page{
+    margin-top: 120px;
+}
+
+.list-title{
+    margin-bottom: 30px;
+}
+
+.list-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5%;
+    row-gap: 40px;
+}
+
+
+.list-grid .movie-card{
+    width: 15%;    
+}
+
+
+@media (max-width: 990px) {
+
+    .list-page{
+        margin-top: 100px;
+    }
+
+    .list-grid{
+        gap: 2.5%;
+        row-gap: 30px;
+    }
+    .list-grid .movie-card{
+        width: 30%;    
+    }
+}

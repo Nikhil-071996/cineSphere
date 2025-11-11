@@ -1,0 +1,67 @@
+.person-page {
+  padding: 110px 0;
+  color: #fff;
+}
+
+.person-header {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.person-image {
+  width: 250px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.person-info h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.person-info p {
+  margin: 4px 0;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.biography {
+  margin-top: 15px;
+  max-width: 700px;
+  font-size: 0.95rem;
+}
+
+.credits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.credit-card {
+  width: 150px;
+  text-align: center;
+}
+
+.credit-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+
+@media (max-width: 990px) {
+
+    .person-page{
+        padding-bottom: 0;
+    }
+
+    .person-header{
+        flex-direction: column;
+    }
+
+    .person-image{
+        width: 100%;
+    }
+}

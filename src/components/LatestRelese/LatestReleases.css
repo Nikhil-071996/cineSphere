@@ -1,0 +1,33 @@
+.latest-container {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.latest-title {
+  font-size: 36px;
+}
+
+.heading-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 37px;
+
+}
+
+
+@media (max-width: 990px) {
+
+  .latest-container {
+    padding: 40px 0;
+  }
+
+  .latest-title {
+    font-size: 20px;
+  }
+
+  .view-more-btn{
+    font-size: 12px;
+  }
+}
+
