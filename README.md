@@ -39,3 +39,92 @@ It lets users explore trending movies, top-rated films, popular TV shows, and ca
    ```bash
    git clone https://github.com/yourusername/cinesphere.git
    cd cinesphere
+Install dependencies
+
+npm install
+
+
+Add your TMDB API key
+
+Create a .env file in the root directory
+
+Add the following line:
+
+REACT_APP_TMDB_API_KEY=your_api_key_here
+
+
+Start the development server
+
+npm start
+
+
+Visit:
+👉 http://localhost:3000
+
+📸 Preview
+
+(Add screenshots or a short demo GIF of your app UI here — e.g. homepage, trailer modal, or actor page)
+
+🧑‍💻 Project Structure
+cinesphere/
+├── src/
+│   ├── api/
+│   │   └── apiClient.js
+│   ├── components/
+│   │   ├── Card/
+│   │   ├── Slider/
+│   │   ├── TrailerComponent/
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Details/
+│   │   ├── ListPage/
+│   │   └── PersonPage/
+│   ├── assets/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+└── package.json
+
+🎯 Purpose
+
+CineSphere was built as a portfolio project to demonstrate:
+
+Strong React component architecture
+
+API integration and async data handling
+
+Dynamic routing with reusable UI patterns
+
+Front-end state management and optimization
+
+A developer’s eye for responsive, polished design
+
+📚 Learnings
+
+Efficient API consumption using Axios and custom client wrappers
+
+Implementing infinite scroll and lazy loading
+
+Handling async UI states and errors gracefully
+
+Creating reusable, composable UI components
+
+Managing navigation and deep linking with React Router
+
+🌍 Live Demo
+
+🚀 View Live Site
+
+📦 GitHub Repository
+
+💼 Author
+
+👨‍💻 Nikhil Kachi
+Frontend Developer | React Enthusiast
+📧 your.email@example.com
+
+🔗 Portfolio Website
+
+🐙 GitHub
+ • 💼 LinkedIn
